@@ -1,0 +1,149 @@
+html, body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: #05386B;
+}
+.wrapper{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "name photo"
+        "work about"
+        "community education"
+        "achievements skills"
+    ;
+    width: 210mm;
+    height: 297mm;
+    grid-gap: 5px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.35);
+    /* background-color: #8EE4AF; */
+    background-color: #EDF5E1;
+}
+.name{
+    grid-area : name;
+    background-color: #05386B;
+    position: relative;
+    color: #EDF5E1;
+}
+.name a{
+    color: #EDF5E1;
+}
+.photo{
+    grid-area : photo;
+    background-color: #379683;
+    position: relative;
+}
+.about{
+    grid-area : about;
+    /* background-color: #EDF5E1; */
+    background-color: white;
+    background-color: #5CDb95;
+    color: #05386B;
+}
+.work{
+    grid-area : work;
+    /* background-color: #EDF5E1; */
+    background-color: white;
+    background-color: #5CDb95;
+    color: #05386B;
+}
+.education{
+    grid-area : education;
+    /* background-color: #EDF5E1; */
+    background-color: white;
+    background-color: #5CDb95;
+    color: #05386B;
+}
+.community{
+    grid-area : community;
+    /* background-color: #EDF5E1; */
+    background-color: white;
+    background-color: #5CDb95;
+    color: #05386B;
+}
+.skills{
+    grid-area : skills;
+    /* background-color: #EDF5E1; */
+    background-color: white;
+    background-color: #5CDb95;
+    color: #05386B;
+}
+.achievements{
+    grid-area : achievements;
+    /* background-color: #EDF5E1; */
+    background-color: white;
+    background-color: #5CDb95;
+    color: #05386B;
+}
+.grid-area{
+    padding: 1em;
+}
+.name-text{
+    font-size: 36px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+}
+.desc-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social-text{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.social-text a i{
+    font-size: 22px;
+    margin: 0 5px;
+}
+.circle {
+    border       : 5px solid #EDF5E1;
+    height       : 200px;
+    width        : 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle img{
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul, li{
+    padding: 0;
+    list-style: none;
+}
+li{
+    border-bottom: 1px dashed #05386B;
+    padding: 5px 0;
+}
+.li-title{
+    font-weight: bold;
+}
+.li-desc{
+    font-size: 14px;
+}

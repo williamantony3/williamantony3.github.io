@@ -1,37 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>William Antony</title>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <style>
-          body{
-            background-color: #cecece;
-          }
-        </style>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div class="container">
-                <div class="row">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <title>Grid Powered Resume</title>
+</head>
+<body>
+    <main class="wrapper">
+        <article class="resume">
+            <section class="name grid-area">
+                <div class="name-text">William Antony</div>
+                <div class="desc-text">College Student</div>
+                <div class="social-text">
+                    <a href="mailto:antony.william30@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://fb.com/wil323"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/williamantony3"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/williamantony3"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://williamantony3.blogspot.com"><i class="fab fa-blogger"></i></a>
+                </div>
+            </section>
+            <section class="photo grid-area">
+                <div class="circle"><img src="images/profile.png" alt="Profile Photo"></div>
+            </section>
+            <section class="about grid-area">
+                <h3><i class="fas fa-user"></i> about me</h3>
+                <p>I'm a web developer and designer. Experienced with the web application development. Also interested in photography, listening new songs, Marvel Cinematic Universe, and Naruto Shippuden.</p>
+            </section>
+            <section class="work grid-area">
+                <h3><i class="fas fa-briefcase"></i> work experience</h3>
+                <ul>
+                    <li>
+                        <div class="li-title">Intern - Web Developer</div>
+                        <div class="li-desc"><a href="https://cangkirware.com">Cangkirware</a></div>
+                        <div class="li-desc">Jan 2017 - Mar 2017</div>
+                    </li>
+                </ul>
+            </section>
+            <section class="education grid-area">
+                <h3><i class="fas fa-graduation-cap"></i> education</h3>
+                <ul>
+                    <li>
+                        <div class="li-title">BINUS University</div>
+                        <div class="li-desc">Computer Science</div>
+                        <div class="li-desc">Jul 2018 - Now</div>
+                    </li>
+                    <li>
+                        <div class="li-title">SMK Negeri 1 Pekanbaru</div>
+                        <div class="li-desc">Computer & Network Engineering</div>
+                        <di class="li-desc">Jul 2015 - Jun 2018</di>
+                    </li>
 
-                    <div class="col s12">
-                      <div class="card blue-grey darken-1">
-                        <div class="card-content white-text">
-                          <span class="card-title">Under Construction</span>
-                          <p>I am so sorry this page is under construction. You can read my blog instead. Thanks :)</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="https://williamantony3.wordpress.com">Visit Blog</a>
-                        </div>
-                      </div>
-                      <!-- <img class="responsive-img" width="100%" src="images/IMG 733.JPG"> -->
-                    </div>
-                  </div>
-
-        </div>
-    </body>
+                </ul>
+            </section>
+            <section class="community grid-area">
+                <h3><i class="fas fa-users"></i> organization</h3>
+                <ul>
+                    <li>
+                        <div class="li-title">Lentera Dhamma PPA / PPTI</div>
+                        <div class="li-desc">Publication and Documentation Division</div>
+                        <div class="li-desc">Jul 2019 - Now</div>
+                    </li>
+                    <li>
+                        <div class="li-title">Bimbingan Rohani Buddha SMK Negeri 1 Pekanbaru</div>
+                        <div class="li-desc">Chief</div>
+                        <div class="li-desc">Jul 2016 - Jun 2017</div>
+                    </li>
+                </ul>
+            </section>
+            <section class="skills grid-area">
+                <h3><i class="fas fa-code"></i> skills</h3>
+                <ul>
+                    <p>#html5 #css #javascript #jquery #php #laravel #mysql #cisco #photoshop #phpmyadmin</p>
+                </ul>
+            </section>
+            <section class="achievements grid-area">
+                <h3><i class="fas fa-star"></i> achievements</h3>
+                <ul>
+                    <li>
+                        <div class="li-title">Finalist UX Design Competition Find IT! UGM 2019</div>
+                        <div class="li-desc">KMTETi FT Universitas Gadjah Mada</div>
+                        <div class="li-desc">Apr 2019</div>
+                    </li>
+                    <li>
+                        <div class="li-title">1st Place Web Design Competition UMRI Expo 2018</div>
+                        <div class="li-desc">Universitas Muhammadiyah Riau</div>
+                        <div class="li-desc">Apr 2018</div>
+                    </li>
+                    <li>
+                        <div class="li-title">1st Place Web Design Competition IT Olimpiade 6 2017</div>
+                        <div class="li-desc">Politeknik Caltex Riau</div>
+                        <div class="li-desc">Nov 2017</div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+</body>
 </html>
