@@ -106,10 +106,26 @@ a{
 }
 .social-text{
     position: absolute;
+    /* top: 60%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.visit-blog{
+    position: absolute;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
+}
+.visit-blog a{
+    text-decoration: none;
+    border: 1px solid #5CDb95;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #379683;
+    font-size: 12px;
 }
 .social-text a i{
     font-size: 22px;
@@ -184,13 +200,13 @@ li{
         "community"
         "achievements";
     }
-    .name-text, .social-text, .desc-text{
+    .name-text, .social-text, .desc-text, .visit-blog{
         position: relative;
         top: 0;
         left: 0;
         transform: none;
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .circle{
         position: relative;
